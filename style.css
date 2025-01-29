@@ -1,0 +1,148 @@
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+ 
+}
+/* left side image and vpn content */
+.leftnav {
+    color:black;
+    align-items: flex-start;
+    display:inline;
+    padding-top: 10px;
+}
+.leftnav img {
+    height:25px;
+    width:25px;
+   
+}
+.leftnav small {
+    margin-left: 3px;
+    font-size: large;
+   
+
+}
+/* middle vavigation list */
+.midnav li {
+    color: rgb(75, 72, 72);
+    list-style-type: none;
+    display:inline;
+    padding: 30px;
+}
+.rightnav {
+    padding-top: 10px;
+}
+.rightnav p {
+    display: inline;
+    padding: 20px;
+    padding-top: 20px;
+}
+/* sign in and up button */
+.rightnav button {
+    height:30px;
+    width: 90px;
+    border-style:solid;
+    border-radius: 15px;
+    background-color: white;
+    border-width: 2px;
+    border-color: deeppink;
+    color: deeppink;
+    font-size: 15px;
+    
+}
+.container1 {
+    display: flex;
+    flex-direction: row;
+    width:1220px;
+    height:500px;
+   margin-top: 40px;
+   align-items: center;
+   margin-left: 107px;
+
+   
+}
+.leftbox {
+    display:block;
+    padding-left: 47px;  
+}
+.leftbox p{
+    color: #0B132A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+.leftbox p small {
+    font-size: 60px;
+   font-style: calc();
+}
+.leftbox span {
+    color: #4F5665;
+    font-size: 14px;
+}
+.leftbox span b {
+    color: dimgray;
+}
+.leftbox button{
+    margin-top: 70px;
+    width: 200px;
+    height:55px;
+    border-radius: 10px;
+    border-style:hidden;
+    background-color:crimson ;
+    font-size: medium;
+    color: aliceblue;
+    filter:drop-shadow(2px 15px 10px rgb(233, 137, 156));
+    
+}
+.right img {
+    Width:200px;
+    height:382.33px;
+    padding-right: 10px; 
+
+}
+.linebar{
+    display:flex;
+    flex-direction:row;
+    width:1220px;
+    height:130px;
+    background-color: #FFFFFf;
+    border: 1px solid black;
+    margin-left: 107px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.leftlinebar,.midlinebar,.rightlinebar{
+    display:flex;
+    align-items: center;
+    
+}
+.leftlinebar i{ 
+    font-size: 50px;
+    margin-left: 15px;  
+}
+.user,.location,.server{
+    display:block;
+    margin-top: -15px;
+    gap: 20px;
+   
+} 
+.user p,.location p,.server p {
+    font-size: 30px;
+
+}
+.user span,.location span,.server span {
+    margin-top: -25px;
+}
+
+.midlinebar i{
+    font-size: 50px;
+    
+}
+.rightlinebar i {
+    font-size: 50px;
+    margin-right: 15px;
+}
+
+
+
