@@ -9,4 +9,4 @@ if (number >0 ){
 }
 else (
     console.log(number,' is negative')
-)
+)   
