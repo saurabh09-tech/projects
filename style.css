@@ -1,3 +1,8 @@
+.projrcts{
+    width: 1230px;
+}
+
+
 .content {
     background-color: white;
 }
@@ -213,7 +218,7 @@
     height: 700px;
     width:1220px;
     justify-content: space-evenly;
-    margin-left: 107px;
+    margin-left: 123px;
    
 
 }
@@ -483,22 +488,82 @@ font-size: xx-large;
     
 }
 .endcontent{
-    height:600px;
-    width:1220px;
-    margin-left: 107px;
+    height:470px;
+    width: 1160px;
     background-color: whitesmoke;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-left: 125px;
+
+    
    
+}
+.footer1{
+    height:400px;
+    width:400px;
+    margin-top: 110px;
+    display:block;
+    align-items: center;
+    
+        
+}
+.lefttext{
+    padding-left: 40px;
+    margin-top: 70px;
+    
+   
+}
+.lefttext p {
+    line-height: 25px;
+    color: #767575;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.lefttext img{
+    height:25px;
+    width:25px;
+}
+.lefttext small{
+    font-size: large;
+}
+.icons{
+    display: inline;
+    margin-top:50px;
+    margin-left: 35px;
+    
+}
+.icons i {
+    padding: 10px;
+}
+.icons small{
+    font-size: 15px;
+    color: #767575;
+    padding-left:38px;
 
 }
-.footer1,.footer2{
-    margin-bottom: 300px;
-    border:1px solid black;
-     
-    
+.footer2{
+    height:400px;
+    width:600px;
+    margin-top: 110px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.list1,.list2,.list3{
+     margin-top: 70px;
+}
+.list1 b,.list2 b,.list3 b{
+    margin-left: 32px;
+}
+.list1 li,.list2 li,.list3 li{
+    list-style-type:none;
+    padding: 10px;
+    margin-left: -13px;
+    color:#767575;
 }
 
 
